@@ -45,15 +45,15 @@ const MobileNav = () => {
             <nav className="flex flex-col justify-center items-center gap-6">
                 {links.map((link, index) => {
                     return (
-                        <Link 
-                        href={link.path} 
-                        key={index}
-                         className={`${
-                            link.path === pathname && 
-                            "text-accent border-b-2 border-accent-hover"}
+                        <Link
+                            href={link.path}
+                            key={index}
+                            className={`${link.path === pathname &&
+                                "text-accent border-b-2 border-accent-hover"}
                           text-xl capitalize hover:text-accent-hover translation-all`} >
                             {link.name}
                         </Link>
+                        
                     );
                 })}
             </nav>
