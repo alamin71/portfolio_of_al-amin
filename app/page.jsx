@@ -32,7 +32,7 @@ const Home = () => {
           </div>
         </div>
         {/* photo */}
-        <div className="order-1 lg:order-none mb-8 lg:mb-0 xl:order-none xl:mb-0 border rounded-full border-dotted">
+        <div className="order-1 lg:order-none mb-8 lg:mb-0 xl:order-none xl:mb-0">
           <Photo />
         </div>
       </div>

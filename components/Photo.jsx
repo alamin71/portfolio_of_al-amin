@@ -18,7 +18,6 @@ const Photo = () => {
                     transition: { delay: 2.4, duration: 0.2, ease: "easeInOut" },
                 }}
 
-
                 className="w-[298px] h-[298px] lg:w-[398px] lg:h-[398px] mix-blend-lighten">
                 <Image src="/Al-Amin__web_.png" priority quality={100} fill alt="" className="object-contain"></Image>
             </motion.div>
