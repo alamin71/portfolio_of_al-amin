@@ -57,13 +57,14 @@ const MobileNav = () => {
                         
                     );
                 })}
-            </nav>
-            <a
+                <a
                     rel="noopener noreferrer" 
                     href="mailto:alamin50cse.miu@gmail.com"
                     >
                     <Button>Hire me</Button>
                     </a>
+            </nav>
+            
         </SheetContent>
 
     </Sheet>;
