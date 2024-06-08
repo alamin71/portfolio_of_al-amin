@@ -3,6 +3,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
+import { Button } from "./ui/button";
 
 const links = [
     {
@@ -57,6 +58,12 @@ const MobileNav = () => {
                     );
                 })}
             </nav>
+            <a
+                    rel="noopener noreferrer" 
+                    href="mailto:alamin50cse.miu@gmail.com"
+                    >
+                    <Button>Hire me</Button>
+                    </a>
         </SheetContent>
 
     </Sheet>;
