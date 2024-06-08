@@ -4,6 +4,7 @@ import { FiDownload } from "react-icons/fi";
 // components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
+import TypingAnimation from "@/components/TypingAnimation/TypingAnimation";
 
 // components
 
@@ -14,8 +15,9 @@ const Home = () => {
       <div className="flex flex-col lg:flex-row xl:flex-row items-center justify-between lg:pt-8 lg:pb-24 xl:pt-8 xl:pb-24 ">
         {/* Text */}
         <div className="text-center lg:text-left xl:text-left order-2 lg:order-none xl:order-none">
-          <span className="text-xl">MERN Stack Developer</span>
+          <span className="text-xl">Software Developer</span>
           <h1 className="h1 mb-6">Hello I am <br /><span className="text-accent">Al-amin</span></h1>
+          <TypingAnimation/>
           <p className="max-w-[500px] mb-9 text-white">
             I am exel at crafting elegant digital experiences and i am
             proficient in various programming language and technologies.
