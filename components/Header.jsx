@@ -22,7 +22,7 @@ const Header = () => {
                     rel="noopener noreferrer" 
                     href="mailto:alamin50cse.miu@gmail.com"
                     >
-                    <Button>Hire me</Button>
+                    <Button className="bg-green-700">Hire me</Button>
                     </a>
                         
                     
