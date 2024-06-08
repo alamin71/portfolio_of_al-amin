@@ -18,9 +18,14 @@ const Header = () => {
                 {/* Desktop Nav */}
                 <div className="hidden lg:flex items-center gap-8">
                     <Nav></Nav>
-                    <Link href="/contact">
-                        <Button>Hire me</Button>
-                    </Link>
+                    <a
+                    rel="noopener noreferrer" 
+                    href="mailto:alamin50cse.miu@gmail.com"
+                    >
+                    <Button>Hire me</Button>
+                    </a>
+                        
+                    
                 </div>
 
                 {/* mobile nav */}
