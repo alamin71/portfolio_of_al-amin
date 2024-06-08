@@ -15,7 +15,7 @@ const Home = () => {
         {/* Text */}
         <div className="text-center lg:text-left xl:text-left order-2 lg:order-none xl:order-none">
           <span className="text-xl">MERN Stack Developer</span>
-          <h1 className="h1 mb-6">Hello I'm <br /><span className="text-accent">Al-amin</span></h1>
+          <h1 className="h1 mb-6">Hello I am <br /><span className="text-accent">Al-amin</span></h1>
           <p className="max-w-[500px] mb-9 text-white">
             I am exel at crafting elegant digital experiences and i am
             proficient in various programming language and technologies.
