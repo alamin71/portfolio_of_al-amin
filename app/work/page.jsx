@@ -120,7 +120,7 @@ const Work = () => {
                 </div>
                 <div className='w-full xl:w-[50%]'>
                     <Swiper>
-                        {projects.map((project, index){
+                        {projects.map((project, index)=>{
                             return <SwiperSlide key={index}>slide</SwiperSlide>
                         })}
                     </Swiper>;
