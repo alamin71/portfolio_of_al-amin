@@ -49,7 +49,7 @@ const projects = [
     },
 ]
 
-const work = () => {
+const Work = () => {
     const [project, setProject] = useState(projects[0]);
     return <motion.section initial={{ opacity: 0 }} animate={{ opacity: 1 }} className='min-h[88vh] flex flex-col justify-center py-12 xl:px-0'>
         <div className="container mx-auto">
@@ -118,10 +118,17 @@ const work = () => {
 
                     </div>
                 </div>
-                <div className='w-full xl:w-[50%]'>slider</div>
+                <div className='w-full xl:w-[50%]'>
+                    <Swiper>
+                        {projects.map((project, index){
+                            return <SwiperSlide key={index}>slide</SwiperSlide>
+                        })}
+                    </Swiper>;
+
+                </div>
             </div>
         </div>
     </motion.section>;
 };
 
-export default work;
+export default Work;
