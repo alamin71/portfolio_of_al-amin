@@ -18,11 +18,11 @@ const projects = [
         title: "project-1",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
-            { name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }
+            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" }, { name: "NextJS ." }
         ],
-        image: '/assets/work/modern-technology.jpg',
-        live: "",
-        github: "",
+        image: '/assets/work/al-amin_portfolio.png',
+        live: "https://al-amin-portfolio.vercel.app/",
+        github: "https://github.com/alamin71/portfolio_of_al-amin",
     },
     {
         num: "02",
@@ -93,7 +93,7 @@ const Work = () => {
                             {/* Button */}
                             <div className='flex items-center gap-4'>
                                 {/* project live btn */}
-                                <Link href="project.github">
+                                <Link href={project.live}passHref>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[60px] h-[60px] rounded-full
@@ -108,7 +108,7 @@ const Work = () => {
                                     </TooltipProvider>
                                 </Link>
                                 {/* live github btn */}
-                                <Link href="project.github">
+                                <Link href={project.github} passHref>
                                     <TooltipProvider delayDuration={100}>
                                         <Tooltip>
                                             <TooltipTrigger className="w-[60px] h-[60px] rounded-full
@@ -117,7 +117,7 @@ const Work = () => {
                                              group-hover:text-accent'/>
                                             </TooltipTrigger>
                                             <TooltipContent>
-                                                <p>Github link</p>
+                                                <p>Github Repository</p>
                                             </TooltipContent>
                                         </Tooltip>
                                     </TooltipProvider>
@@ -132,12 +132,12 @@ const Work = () => {
                     <Swiper 
                     spaceBetween={30}
                     slidesPerView={1}
-                    className="lg:h-[520px] mb-12"
+                    className="lg:h-[520px] mb-2"
                     onSlideChange={handleSlideChange}
                     >
                         {projects.map((project, index)=>{
                             return <SwiperSlide key={index} className='w-full'>
-                                <div className='h-[460px] relative group flex justify-center items-center bg-pink-50/20'>
+                                <div className='h-[260px] relative group flex justify-center items-center bg-pink-50/20'>
                                 {/* overlay */}
                                 <div className='absolute top-0 bottom-0 w-full h-full bg-black/10 z-10'></div>
                                 {/* image */}
@@ -151,7 +151,7 @@ const Work = () => {
                         
                         })}
                         {/* WorksliderBtn */}
-                        <WorksliderBtn containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-0 z-20 w-full justify-between lg:w-max
+                        <WorksliderBtn containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] lg:bottom-40 z-20 w-full justify-between lg:w-max
                         lg:justify-none" 
                         btnStyles="bg-accent hover:bg-accent-hover text-primary text-[22px] w-[44px] h-[44px] flex justify-center items-center transtion-all"/>
                     </Swiper>
