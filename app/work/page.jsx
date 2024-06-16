@@ -30,11 +30,11 @@ const projects = [
         title: "project-2",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
-            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" }
+            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" },{ name: "React" }
         ],
-        image: '/assets/work/modern-technology.jpg',
-        live: "",
-        github: "",
+        image: '/assets/work/donation_camp.png',
+        live: "https://quizzical-drug.surge.sh/",
+        github: "https://github.com/alamin71/donation-campaign-website",
     },
     {
         num: "03",
@@ -59,7 +59,13 @@ const Work = () => {
         //update project state based on current slide index
         setProject(projects[currenIndex]);
     };
-    return <motion.section initial={{ opacity: 0 }}
+    return (
+<div>
+    <div className='text-center'> 
+        <p>Some of My Recent Works</p>
+        <h1 className='text-6xl text-accent'>Projects</h1>
+    </div>
+<motion.section initial={{ opacity: 0 }}
      animate={{ opacity: 1, transition:{delay:2.4, duration:0.4, ease:'easeIn'} }} 
      className='min-h[88vh] flex flex-col justify-center py-12 xl:px-0'>
         <div className="container mx-auto">
@@ -160,6 +166,9 @@ const Work = () => {
             </div>
         </div>
     </motion.section>;
+</div>
+    );
+    
 };
 
 export default Work;
