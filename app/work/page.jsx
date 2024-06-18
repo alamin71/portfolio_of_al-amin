@@ -18,18 +18,6 @@ const projects = [
         title: "project-1",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
-            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" }, { name: "NextJS ." }
-        ],
-        image: '/assets/work/al-amin_portfolio.png',
-        live: "https://al-amin-portfolio.vercel.app/",
-        github: "https://github.com/alamin71/portfolio_of_al-amin",
-    },
-    {
-        num: "02",
-        category: "frontend",
-        title: "project-2",
-        Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
-        stack: [
             { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" },{ name: "React" }
         ],
         image: '/assets/work/donation_camp.png',
@@ -37,16 +25,29 @@ const projects = [
         github: "https://github.com/alamin71/donation-campaign-website",
     },
     {
+        num: "02",
+        category: "frontend",
+        title: "project-2",
+        Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
+        stack: [
+            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" }, { name: "NextJS ." }
+        ],
+        image: '/assets/work/al-amin_portfolio.png',
+        live: "https://al-amin-portfolio.vercel.app/",
+        github: "https://github.com/alamin71/portfolio_of_al-amin",
+    },
+    
+    {
         num: "03",
         category: "frontend",
         title: "project-3",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
-            { name: "Html 5" }, { name: "CSS 3" }, { name: "JavaScript" }
+            { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" },{ name: "DaisyUI" },{ name: "Firebase" }
         ],
-        image: '/assets/work/modern-technology.jpg',
-        live: "",
-        github: "",
+        image: '/assets/work/dailynews.png',
+        live: "https://daily-news-today-3d5a7.web.app/home",
+        github: "https://github.com/alamin71/daily-news-today",
     },
 ]
 
