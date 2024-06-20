@@ -15,8 +15,8 @@ const projects = [
     {
         num: "01",
         category: "frontend",
-        title: "project-1",
-        Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
+        title: "donation-campaign",
+        Description: "In this Donation Campaign website, an user can search by category name and can see and donate different category.",
         stack: [
             { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" },{ name: "React" }
         ],
@@ -27,7 +27,7 @@ const projects = [
     {
         num: "02",
         category: "frontend",
-        title: "project-2",
+        title: "Portfolio",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
             { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" }, { name: "NextJS ." }
@@ -40,7 +40,7 @@ const projects = [
     {
         num: "03",
         category: "frontend",
-        title: "project-3",
+        title: "Daily New Portal",
         Description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
         stack: [
             { name: "Html 5" }, { name: "Tailwind CSS" }, { name: "JavaScript" },{ name: "DaisyUI" },{ name: "Firebase" }
@@ -83,6 +83,8 @@ const Work = () => {
                             <h2 className='text-[42px] font-bold leading-none text-white
                            group-hover:text-accent-hover transition-all duration-500 capitalize
                            '>{project.category} project</h2>
+                           {/* project title */}
+                           <p className='text-white/60 text-3xl'>{project.title}</p>
                             {/* project description */}
                             <p className='text-white/60'>{project.Description}</p>
                             {/* stack */}
