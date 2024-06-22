@@ -64,7 +64,7 @@ const Work = () => {
 <div>
     <div className='text-center'> 
         <p>Some of My Recent Works</p>
-        <h1 className='text-6xl text-accent'>Projects</h1>
+        <h1 className='text-4xl text-accent underline underline-offset-8'>Projects</h1>
     </div>
 <motion.section initial={{ opacity: 0 }}
      animate={{ opacity: 1, transition:{delay:2.4, duration:0.4, ease:'easeIn'} }} 
