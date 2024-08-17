@@ -16,7 +16,6 @@ const Photo = () => {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{
-            x: [null, 100, 0],
             opacity: 1,
             transition: {
               delay: 1,
