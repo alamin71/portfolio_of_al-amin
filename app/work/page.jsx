@@ -22,7 +22,7 @@ const projects = [
     category: "Frontend",
     title: "Creative-website",
     Description:
-      "A Gymnasium web platform is a digital solution that allows users to access gym services, class schedules, membership management, from any device.",
+      "Enhancing Collaborative relationships between world of Education and Business.",
     stack: [
       { name: "Html 5" },
       { name: "Tailwind CSS" },
@@ -30,7 +30,7 @@ const projects = [
       { name: "React" },
       { name: "Daisyui" },
     ],
-    image: "/assets/work/Creative-web.png",
+    image: "/assets/work/Creative_web.png",
     live: "https://spectacular-degree.surge.sh/",
     github: "https://github.com/alamin71/Creative-web_with-react",
   },
