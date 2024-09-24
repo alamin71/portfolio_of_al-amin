@@ -20,6 +20,23 @@ const projects = [
   {
     num: "01",
     category: "Frontend",
+    title: "Creative-website",
+    Description:
+      "A Gymnasium web platform is a digital solution that allows users to access gym services, class schedules, membership management, from any device.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind CSS" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Daisyui" },
+    ],
+    image: "/assets/work/Creative-web.png",
+    live: "https://spectacular-degree.surge.sh/",
+    github: "https://github.com/alamin71/Creative-web_with-react",
+  },
+  {
+    num: "02",
+    category: "Frontend",
     title: "Gymnesium-website",
     Description:
       "A Gymnasium web platform is a digital solution that allows users to access gym services, class schedules, membership management, from any device.",
@@ -34,7 +51,7 @@ const projects = [
     github: "https://github.com/alamin71/client-project-with-react",
   },
   {
-    num: "02",
+    num: "03",
     category: "Frontend",
     title: "donation-campaign",
     Description:
@@ -50,7 +67,7 @@ const projects = [
     github: "https://github.com/alamin71/donation-campaign-website",
   },
   {
-    num: "03",
+    num: "04",
     category: "frontend",
     title: "Portfolio",
     Description:
@@ -67,7 +84,7 @@ const projects = [
   },
 
   {
-    num: "04",
+    num: "05",
     category: "frontend",
     title: "Daily New Portal",
     Description:
