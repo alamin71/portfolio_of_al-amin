@@ -20,6 +20,23 @@ const projects = [
   {
     num: "01",
     category: "Frontend",
+    title: "School-management-website",
+    Description:
+      "Comprehensive platform streamlining school operations, academic management, communication, and real-time collaboration.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind CSS" },
+      { name: "JavaScript" },
+      { name: "React" },
+      { name: "Daisyui" },
+    ],
+    image: "/assets/work/schoolWeb.png",
+    live: "https://tested-comb.surge.sh/",
+    github: "https://github.com/alaminwbsoft/zilaschool",
+  },
+  {
+    num: "02",
+    category: "Frontend",
     title: "Software-company-website",
     Description:
       "Enhancing Collaborative relationships between world of Education and Business.",
@@ -35,7 +52,7 @@ const projects = [
     github: "https://github.com/alamin71/Mediusware",
   },
   {
-    num: "02",
+    num: "03",
     category: "Frontend",
     title: "Creative-website",
     Description:
@@ -52,7 +69,7 @@ const projects = [
     github: "https://github.com/alamin71/Creative-web_with-react",
   },
   {
-    num: "03",
+    num: "04",
     category: "Frontend",
     title: "Gymnesium-website",
     Description:
@@ -68,7 +85,7 @@ const projects = [
     github: "https://github.com/alamin71/client-project-with-react",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend",
     title: "donation-campaign",
     Description:
@@ -84,7 +101,7 @@ const projects = [
     github: "https://github.com/alamin71/donation-campaign-website",
   },
   {
-    num: "05",
+    num: "06",
     category: "frontend",
     title: "Portfolio",
     Description:
@@ -101,7 +118,7 @@ const projects = [
   },
 
   {
-    num: "06",
+    num: "07",
     category: "frontend",
     title: "Daily New Portal",
     Description:
