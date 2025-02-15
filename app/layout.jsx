@@ -5,10 +5,11 @@ import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import Footer from "@/components/Footer/Footer";
 
-
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], weight:["100","200","300","400","500","600","700","800"],
-  variable: '--font-jetbrainsMono',
- });
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
+  variable: "--font-jetbrainsMono",
+});
 
 export const metadata = {
   title: "Al-Amin_Portfolio",
@@ -20,11 +21,12 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header></Header>
-        <PageTransition>{children}</PageTransition>
-        
+        <main className="min-h-screen">
+          <PageTransition>{children}</PageTransition>
+        </main>
+
         <Footer></Footer>
-        
-        </body>
+      </body>
     </html>
   );
 }
