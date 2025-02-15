@@ -150,7 +150,7 @@ const FullStackProject = () => {
       <div className="text-center">
         <p>Some of My Recent MERN Stack Project</p>
         <h1 className="text-4xl text-accent underline underline-offset-8">
-          Projects
+          MERN Stack Projects
         </h1>
       </div>
       <motion.section

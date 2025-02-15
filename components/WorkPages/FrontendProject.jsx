@@ -150,7 +150,7 @@ const FrontendProject = () => {
       <div className="text-center">
         <p>Some of My Recent Frontend Project</p>
         <h1 className="text-4xl text-accent underline underline-offset-8">
-          Projects
+          Frontend Project
         </h1>
       </div>
       <motion.section
