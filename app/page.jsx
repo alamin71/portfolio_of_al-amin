@@ -5,8 +5,10 @@ import { FiDownload } from "react-icons/fi";
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
 import TypingAnimation from "@/components/TypingAnimation/TypingAnimation";
-import Work from "./work/page";
+// import Work from "./work/FullStackProject";
 import Services from "./services/page";
+import FrontendProject from "../components/WorkPages/FrontendProject";
+import FullStackProject from "../components/WorkPages/FullStackProject";
 
 // components
 
@@ -58,8 +60,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <Work />
-        <Services />
+
+        <FrontendProject />
+        <FullStackProject />
       </section>
     </div>
   );
