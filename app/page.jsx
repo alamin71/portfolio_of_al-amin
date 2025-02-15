@@ -34,8 +34,8 @@ const Home = () => {
               <div className="flex flex-col lg:flex-row xl:flex-row  items-center gap-8 ">
                 <a
                   rel="noopener noreferrer"
-                  href="Resume_Al-Amin.pdf"
-                  download="Resume_Al-Amin.pdf"
+                  href="Resume_Al-Amin-MERN.pdf"
+                  download="Resume_Al-Amin-MERN.pdf"
                 >
                   <Button
                     variant="outline"
