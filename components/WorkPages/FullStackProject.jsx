@@ -33,8 +33,9 @@ const projects = [
       { name: "MongoDB" },
     ],
     image: "/assets/work/bookstores.png",
-    live: "https://tested-comb.surge.sh/",
-    github: "https://github.com/alaminwbsoft/zilaschool",
+    live: "https://book-store-two-lime.vercel.app/",
+    githubFrontend: "https://github.com/alamin71/book-store",
+    githubBackend: "https://github.com/alamin71/book-app-backend",
   },
   {
     num: "02",
@@ -51,7 +52,8 @@ const projects = [
     ],
     image: "/assets/work/mediusware.png",
     live: "https://late-water.surge.sh/",
-    github: "https://github.com/alamin71/Mediusware",
+    githubFrontend: "https://github.com/alaminwbsoft/zilaschool",
+    githubBackend: "https://github.com/alamin71/book-store",
   },
   {
     num: "03",
@@ -68,73 +70,8 @@ const projects = [
     ],
     image: "/assets/work/Creative_Image.png.png",
     live: "https://spectacular-degree.surge.sh/",
-    github: "https://github.com/alamin71/Creative-web_with-react",
-  },
-  {
-    num: "04",
-    category: "Frontend",
-    title: "Gymnesium-website",
-    Description:
-      "A Gymnasium web platform is a digital solution that allows users to access gym services, class schedules, membership management, from any device.",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "React" },
-    ],
-    image: "/assets/work/Gymnesium.png",
-    live: "https://goofy-middle.surge.sh/",
-    github: "https://github.com/alamin71/client-project-with-react",
-  },
-  {
-    num: "05",
-    category: "Frontend",
-    title: "donation-campaign",
-    Description:
-      "In this Donation Campaign website, an user can search by category name and can see and donate different category.",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "React" },
-    ],
-    image: "/assets/work/donation_camp.png",
-    live: "https://quizzical-drug.surge.sh/",
-    github: "https://github.com/alamin71/donation-campaign-website",
-  },
-  {
-    num: "06",
-    category: "frontend",
-    title: "Portfolio",
-    Description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "NextJS ." },
-    ],
-    image: "/assets/work/al-amin_portfolio.png",
-    live: "https://al-amin-portfolio.vercel.app/",
-    github: "https://github.com/alamin71/portfolio_of_al-amin",
-  },
-
-  {
-    num: "07",
-    category: "frontend",
-    title: "Daily New Portal",
-    Description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "DaisyUI" },
-      { name: "Firebase" },
-    ],
-    image: "/assets/work/dailynews.png",
-    live: "https://daily-news-today-3d5a7.web.app/home",
-    github: "https://github.com/alamin71/daily-news-today",
+    githubFrontend: "https://github.com/alaminwbsoft/zilaschool",
+    githubBackend: "https://github.com/alamin71/book-store",
   },
 ];
 
@@ -217,7 +154,7 @@ const FullStackProject = () => {
                             />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="bg-green-800 text-sm border rounded-md text-white">
+                            <p className="bg-green-800 text-sm border p-1 rounded-md text-white">
                               Live project
                             </p>
                           </TooltipContent>
@@ -225,21 +162,38 @@ const FullStackProject = () => {
                       </TooltipProvider>
                     </Link>
                     {/* live github btn */}
-                    <Link href={project.github} passHref>
+                    {/* Github Frontend btn */}
+                    <Link href={project.githubFrontend} passHref>
                       <TooltipProvider delayDuration={100}>
                         <Tooltip>
                           <TooltipTrigger
                             className="w-[60px] h-[60px] rounded-full
-                                         bg-white/5 flex justify-center items-center group"
+                  bg-white/5 flex justify-center items-center group"
                           >
-                            <BsGithub
-                              className="text-white text-3xl
-                                             group-hover:text-accent"
-                            />
+                            <BsGithub className="text-white text-3xl group-hover:text-accent" />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="bg-green-800 text-sm border rounded-lg text-white">
-                              Github Repository
+                            <p className="bg-green-800 text-sm border rounded-lg p-1 text-white">
+                              Github Frontend
+                            </p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
+                    </Link>
+
+                    {/* Github Backend btn */}
+                    <Link href={project.githubBackend} passHref>
+                      <TooltipProvider delayDuration={100}>
+                        <Tooltip>
+                          <TooltipTrigger
+                            className="w-[60px] h-[60px] rounded-full
+                  bg-white/5 flex justify-center items-center group"
+                          >
+                            <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p className="bg-green-800 text-sm border p-1 rounded-lg text-white">
+                              Github Backend
                             </p>
                           </TooltipContent>
                         </Tooltip>
@@ -267,7 +221,7 @@ const FullStackProject = () => {
                           <Image
                             src={project.image}
                             fill
-                            className="object-cover"
+                            className="w-full h-full"
                             alt=""
                           />
                         </div>
@@ -286,7 +240,6 @@ const FullStackProject = () => {
           </div>
         </div>
       </motion.section>
-      ;
     </div>
   );
 };

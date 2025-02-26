@@ -215,7 +215,7 @@ const FrontendProject = () => {
                             />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="bg-green-800 text-sm border rounded-md text-white">
+                            <p className="bg-green-800 text-sm border p-1 rounded-md text-white">
                               Live project
                             </p>
                           </TooltipContent>
@@ -236,7 +236,7 @@ const FrontendProject = () => {
                             />
                           </TooltipTrigger>
                           <TooltipContent>
-                            <p className="bg-green-800 text-sm border rounded-lg text-white">
+                            <p className="bg-green-800 text-sm border p-1 rounded-lg text-white">
                               Github Repository
                             </p>
                           </TooltipContent>
@@ -265,7 +265,7 @@ const FrontendProject = () => {
                           <Image
                             src={project.image}
                             fill
-                            className="object-cover"
+                            className="w-full h-full "
                             alt=""
                           />
                         </div>
@@ -284,7 +284,6 @@ const FrontendProject = () => {
           </div>
         </div>
       </motion.section>
-      ;
     </div>
   );
 };
