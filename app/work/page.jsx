@@ -12,8 +12,8 @@ const Work = () => {
 
     // </div>
     <>
-      <FrontendProject />
       <FullStackProject />
+      <FrontendProject />
     </>
   );
 };

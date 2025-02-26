@@ -55,24 +55,6 @@ const projects = [
     githubFrontend: "https://github.com/alaminwbsoft/zilaschool",
     githubBackend: "https://github.com/alamin71/book-store",
   },
-  {
-    num: "03",
-    category: "Frontend",
-    title: "Creative-website",
-    Description:
-      "Enhancing Collaborative relationships between world of Education and Business.",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "React" },
-      { name: "Daisyui" },
-    ],
-    image: "/assets/work/Creative_Image.png.png",
-    live: "https://spectacular-degree.surge.sh/",
-    githubFrontend: "https://github.com/alaminwbsoft/zilaschool",
-    githubBackend: "https://github.com/alamin71/book-store",
-  },
 ];
 
 const FullStackProject = () => {

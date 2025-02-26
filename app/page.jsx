@@ -60,9 +60,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <FrontendProject />
         <FullStackProject />
+        <FrontendProject />
       </section>
     </div>
   );
