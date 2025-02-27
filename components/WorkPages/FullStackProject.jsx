@@ -32,7 +32,7 @@ const projects = [
       { name: "ExpressJS" },
       { name: "MongoDB" },
     ],
-    image: "/assets/work/bookstores.png",
+    image: "/assets/work/bookstore-web.png",
     live: "https://book-store-two-lime.vercel.app/",
     githubFrontend: "https://github.com/alamin71/book-store",
     githubBackend: "https://github.com/alamin71/book-app-backend",
