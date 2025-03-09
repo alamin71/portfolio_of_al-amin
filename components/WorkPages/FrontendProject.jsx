@@ -20,6 +20,22 @@ const projects = [
   {
     num: "01",
     category: "Frontend",
+    title: "Blogs-website",
+    Description:
+      "Stay updated with the latest blogs on Bangladesh, International news, Sports, and Entertainment. Explore insightful articles on trending topics, expert opinions, and in-depth analyses—all in one place!",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind CSS" },
+      { name: "JavaScript" },
+      { name: "React" },
+    ],
+    image: "/assets/work/blogSiteImg.png",
+    live: "https://exclusive-blog-site.vercel.app/",
+    github: "https://github.com/alamin71/exclusive-blog-site",
+  },
+  {
+    num: "02",
+    category: "Frontend",
     title: "School-management-website",
     Description:
       "Comprehensive platform streamlining school operations, academic management, communication, and real-time collaboration.",
@@ -35,7 +51,7 @@ const projects = [
     github: "https://github.com/alaminwbsoft/zilaschool",
   },
   {
-    num: "02",
+    num: "03",
     category: "Frontend",
     title: "Software-company-website",
     Description:
@@ -52,7 +68,7 @@ const projects = [
     github: "https://github.com/alamin71/Mediusware",
   },
   {
-    num: "03",
+    num: "04",
     category: "Frontend",
     title: "Creative-website",
     Description:
@@ -69,7 +85,7 @@ const projects = [
     github: "https://github.com/alamin71/Creative-web_with-react",
   },
   {
-    num: "04",
+    num: "05",
     category: "Frontend",
     title: "Gymnesium-website",
     Description:
@@ -85,7 +101,7 @@ const projects = [
     github: "https://github.com/alamin71/client-project-with-react",
   },
   {
-    num: "05",
+    num: "06",
     category: "Frontend",
     title: "donation-campaign",
     Description:
@@ -99,22 +115,6 @@ const projects = [
     image: "/assets/work/donation_camp.png",
     live: "https://quizzical-drug.surge.sh/",
     github: "https://github.com/alamin71/donation-campaign-website",
-  },
-  {
-    num: "06",
-    category: "frontend",
-    title: "Portfolio",
-    Description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus magni facilis!",
-    stack: [
-      { name: "Html 5" },
-      { name: "Tailwind CSS" },
-      { name: "JavaScript" },
-      { name: "NextJS ." },
-    ],
-    image: "/assets/work/al-amin_portfolio.png",
-    live: "https://al-amin-portfolio.vercel.app/",
-    github: "https://github.com/alamin71/portfolio_of_al-amin",
   },
 
   {
