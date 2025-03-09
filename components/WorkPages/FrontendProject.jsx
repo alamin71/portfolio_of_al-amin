@@ -29,7 +29,7 @@ const projects = [
       { name: "JavaScript" },
       { name: "React" },
     ],
-    image: "/assets/work/blogSiteImg.png",
+    image: "/assets/work/exclusive-blogImg.png",
     live: "https://exclusive-blog-site.vercel.app/",
     github: "https://github.com/alamin71/exclusive-blog-site",
   },
